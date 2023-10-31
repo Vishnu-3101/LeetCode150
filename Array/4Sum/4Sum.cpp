@@ -1,12 +1,12 @@
-#include<bits/stdc++.h>
+#include<bits\stdc++.h>
 using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+    vector<vector<int> > fourSum(vector<int>& nums, int target) {
         int n=nums.size();
         sort(nums.begin(),nums.end());
-        vector<vector<int>>result;
+        vector<vector<int> >result;
         for(int i=0;i<n-3;i++){
             if(i>0 && nums[i]==nums[i-1]){
                 continue;
