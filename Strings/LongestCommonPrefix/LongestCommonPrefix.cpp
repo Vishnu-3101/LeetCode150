@@ -7,6 +7,7 @@ using namespace std;
 // 3. Sorting the array of strings and comparing the char in 1st and last string to get the prefix
 
 // We can do this using trie data structure
+
 struct Node{
     Node* node[26];
     int nodeCount=0;
