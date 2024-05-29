@@ -1,0 +1,19 @@
+[Problem](https://leetcode.com/problems/longest-increasing-subsequence/description/?envType=study-plan-v2&envId=top-interview-150)<br/><br/>
+
+Given an integer array nums, return the length of the longest strictly increasing subsequence.<br/>
+
+### Example 1:
+
+**Input**: nums = [10,9,2,5,3,7,101,18]<br/>
+**Output**: 4<br/>
+**Explanation**: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.<br/>
+
+### Example 2:
+
+**Input**: nums = [0,1,0,3,2,3]<br/>
+**Output**: 4<br/>
+
+### Example 3:
+
+**Input**: nums = [7,7,7,7,7,7,7]<br/>
+**Output**: 1<br/>
